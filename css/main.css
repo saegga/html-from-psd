@@ -1,0 +1,365 @@
+
+body{
+	font-family:Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: url(../img/first-bgn.jpg) no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+div{
+	box-sizing: border-box;
+}
+nav{
+	float: right;
+	margin-top: 50px;
+}
+.clearfix:after{
+	content: '';
+	width: 100%;
+	display: table;
+	clear: both;
+}
+.container{
+	width: 930px;
+	margin:0 auto;
+}
+.logo{
+	float: left;
+	margin-top: 50px;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;	
+}
+.menu li{
+	float: left;
+	display: block;	
+	margin-right: 41px;
+	font-size: 14px;
+}
+.menu a{
+	color: #ccc;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.titles_first{
+	font-size: 40px;
+	color: #fff;
+	text-transform:uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+h1{
+	margin: 15px;
+	font-size: 75px;
+	color: #fff;
+	text-transform:uppercase;
+	text-align: center;
+}
+.button{
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 60px;
+	text-decoration: none;
+}
+
+
+.title{
+	padding-top: 115px;
+}
+.title h2{
+	margin: 0;
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #222222;
+}
+.title p{
+	text-align: center;
+	color: #222222;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.services{
+	margin-top: 80px;
+}
+.service_item{
+	width: 270px;	
+	float: left;
+	text-align: center;
+}
+.service_item h3{
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+.service_item p{
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+.service_item:last-child {
+	float: right;
+}
+.service_item:nth-child(2){
+	margin-left: 60px;
+}
+#services{
+	padding-bottom:120px;
+}
+#portfolio{
+	background-color: #f7f7f7; 
+}
+#about{
+
+}
+.works{
+	margin-top: 70px;
+	padding-bottom: 120px;
+}
+.works img{
+	float: left;
+}
+.works img:nth-child(2){
+	margin-left:29px;
+}
+.works img:last-child{
+	float: right;
+}
+.about{
+	margin-top: 125px;
+	margin-bottom: 90px;
+	
+}
+.about h3{
+	color: #222222;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.about p{
+	margin-top: 5px;
+	font-size: 14px;
+	color: #777777;
+	text-align: center;
+}
+.comments{
+
+}
+.comment_item{
+	width: 515px;
+	margin: 0 44px 90px 44px;
+}
+.comment_item:nth-child(2n) {
+ float: right;
+}
+
+.comment_item:nth-child(2n+1) {
+ float: left;
+}
+
+.comment_item p {
+ line-height: 1.55em;
+}
+.floatL {
+ float: left;
+ text-align: left;
+ padding-right: 30px;
+}
+.floatR{
+	float: right;
+ text-align: left;
+ padding-left: 30px
+}
+#date {
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-bottom: 10px;
+font-size: 18px;
+}
+
+.footer_container{
+	margin-bottom: 30px;
+    text-align: center;
+}
+.copywright{
+	color: #929292;
+	font-size: 14px;
+}
+
+/*
+.About_Us {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 3486px;
+  z-index: 30;
+}
+.Title {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 3486px;
+  z-index: 29;
+}
+.Title_About_Us {
+  font-size: 40px;
+  font-family: "Arial";
+  color: rgb( 34, 34, 34 );
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.875;
+  text-align: center;
+  position: absolute;
+  left: 602px;
+  top: 2160.684px;
+  z-index: 28;
+}
+.Sub_Title {
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb( 119, 119, 119 );
+  text-align: center;
+  position: absolute;
+  left: 559px;
+  top: 2140.27px;
+  z-index: 27;
+}
+.Our_Humble_Beginnings {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 3486px;
+  z-index: 25;
+}
+.Title {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb( 34, 34, 34 );
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+  position: absolute;
+  left: 370px;
+  top: 2239.558px;
+  z-index: 24;
+}
+.Description {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 119, 119, 119 );
+  text-align: right;
+  position: absolute;
+  left: 286px;
+  top: 2301.517px;
+  z-index: 23;
+}
+.Facing_Startup_Battles {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 3486px;
+  z-index: 20;
+}
+.Title {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb( 34, 34, 34 );
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  left: 828px;
+  top: 2515.558px;
+  z-index: 19;
+}
+.Description {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 119, 119, 119 );
+  text-align: left;
+  position: absolute;
+  left: 830px;
+  top: 2577.517px;
+  z-index: 18;
+}
+.Enter_The_Dark_Days {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 3486px;
+  z-index: 15;
+}
+.Title {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb( 34, 34, 34 );
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+  position: absolute;
+  left: 400px;
+  top: 2789.558px;
+  z-index: 14;
+}
+.Description {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 119, 119, 119 );
+  text-align: right;
+  position: absolute;
+  left: 286px;
+  top: 2853.517px;
+  z-index: 13;
+}
+.Our_Triumph {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 3486px;
+  z-index: 10;
+}
+.Title {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb( 34, 34, 34 );
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  left: 828px;
+  top: 3065.558px;
+  z-index: 9;
+}
+.Description {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb( 119, 119, 119 );
+  text-align: left;
+  position: absolute;
+  left: 831px;
+  top: 3128.517px;
+  z-index: 8;
+}*/
